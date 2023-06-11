@@ -55,7 +55,10 @@ ul {
 
 .col {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.col label{
+  margin-left: 0.5rem;
 }
 
 .inner-div-right {
